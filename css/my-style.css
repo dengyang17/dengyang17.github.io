@@ -37,3 +37,11 @@
   #menu a:hover {
     text-decoration: none;
   }
+
+.news-box {
+    max-height: 300px; /* adjust height */
+    overflow-y: scroll; /* enables scroll down */
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #fafafa; /* optional */
+}
